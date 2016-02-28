@@ -589,3 +589,21 @@ iframe{
         display:none;
     }
 }
+
+/* Custom CSS */
+
+.popover {
+	font-size: 12px;
+	color: #333;
+	line-height: 1.42857143;
+	letter-spacing: normal;
+	font-weight: normal;
+}
+
+a .mg-md {
+	color: #f6a941;
+}
+
+a .mg-md:hover {
+	color: #f48f0b;
+}
