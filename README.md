@@ -1,2 +1,2 @@
-# deoa-ss16
+# deoa
 Digital Encyclopedia of Archaeologists
