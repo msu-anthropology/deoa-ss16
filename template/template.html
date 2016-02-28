@@ -13,7 +13,7 @@
     <script src="../js/bootstrap.js"></script>
     <script src="../js/blocs.js"></script>
     
-    <title>about - </title>
+    <title>Template</title>
 </head>
 <body>
 <!-- Main container -->
@@ -70,6 +70,21 @@
 </div><!-- Footer - bloc-4 END -->
 </div>
 <!-- Main container END -->
+
+<!-- Custom Citation Popover Script -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("a[rel=citation]").popover({
+			placement : 'top'
+		}).click(function (p) {
+			p.preventDefault();
+			var $self = $(this);
+			setTimeout(function () {
+				$self.popover('hide');
+			}, 4000);
+		});
+	});
+	</script>
 
 </body>
     
