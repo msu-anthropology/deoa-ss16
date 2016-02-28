@@ -600,10 +600,10 @@ iframe{
 	font-weight: normal;
 }
 
-a .mg-md {
+.d-bloc a {
 	color: #f6a941;
 }
 
-a .mg-md:hover {
+.d-bloc a:hover {
 	color: #f48f0b;
 }
