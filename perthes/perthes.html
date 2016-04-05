@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" id="ppstyle" type="text/css" href="../style.css">
+    <link rel='stylesheet' href='../css/font-awesome.min.css'/><link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="../js/jquery-2.1.0.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/blocs.js"></script>
+    
+    <title>Template</title>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    <!-- Navigation Bloc --><div id="b-nav" class="bloc-container">
+	<div id="bloc-nav" class="d-mode d-mode-active">
+		<div class="bloc bgc-white l-bloc" id="nav-bloc">
+			<div class="container bloc-sm">
+				<nav class="navbar row">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="../."><img src="../img/DEoA_logo.png?timestamp=1456510003840" alt="logo" /></a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-1">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="../." class="ltc-outer-space">Home</a>
+							</li>
+							<li>
+								<a href="../about.html" class="ltc-outer-space">About the Project</a>
+							</li>
+							<li>
+								<a href="../tutorial.html" class="ltc-outer-space">Tutorial</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div><!-- Navigation Bloc END --><!-- bloc-3 --><div class="bloc bgc-outer-space d-bloc" id="bloc-3">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="mg-md">Jacques Boucher de Crèvecœur de Perthes</h1>
+				<h2 class="mg-md">Brendan Mitchell</h2>
+				<h3 class="mg-md">Early Life</h3>
+				<p>
+					Jacques Boucher de Crèvecœur de Perthes (birth name Jacques Boucher de Perthes) was born in 1788 in the town of Rethel, France.  His father, Jules-Armand Boucher de Crèvecœur, was an aristocrat who was a member of the Academy of Sciences in Paris as a result of his botanist background.  His mother, Etienne-Jeanne-Marie de Perthes, claimed to be a descendant of Joan of Arc.  
+
+					As a result of both his aristocratic upbringing, and the common belief about the family’s ancestor, Jacques Boucher found himself devoting plenty of time to writing, especially when it came to literature and of politics.  Even though he would eventually be known as someone who self-learned many subjects, he grew bored of formal education.  Even though the knowledge wasn’t around back then, it is believed that Jacques may have had some form of hyperactive attention deficit disorder, which would explain why he was unable to sit still during schooling as well as his seeming impatience for long sermons as an adult.
+
+					When Jacques was a teenager, he joined the French customs service, and in a few years’ time he was stationed in Genoa, the capital of the northern Italian kingdoms that France had recently procured.  This position was one given to him as recognition of his hard work, and it gave him the ability to help France’s economy, and it also saw him on diplomatic missions on occasion.  This lasted for five years, until Jacques was reassigned back to France as a result of Britain’s fighting over France.  He continued working in customs until 1814, when the allied forces overtook Paris and Napoleon’s Empire extinguished.
+
+				</p>
+				<br><!--this creates a break, to separate things a little better-->
+				<!--<a href="#" rel="citation" data-toggle="popover" data-content=""><!--this is the required <a href> beginning tag for inline reference popups-->
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-3 END --><!-- Footer - bloc-4 --><div class="bloc bgc-white l-bloc" id="bloc-4">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="../img/New%20Department%20Logo.png" class="img-responsive center-block" />
+			</div>
+			<div class="col-sm-6">
+				<img src="../img/LEADR-LOGO-10-300x84.png" class="img-responsive center-block mg-lg" />
+			</div>
+		</div>
+	</div>
+</div><!-- Footer - bloc-4 END -->
+</div>
+<!-- Main container END -->
+
+<!-- Custom Citation Popover Script -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("a[rel=citation]").popover({
+			placement : 'top'
+		}).click(function (p) {
+			p.preventDefault();
+			var $self = $(this);
+			setTimeout(function () {
+				$self.popover('hide');
+			}, 4000);
+		});
+	});
+	</script>
+
+</body>
+    
+<!-- Google Analytics -->
+
+<!-- Google Analytics END -->
+
+</html>
