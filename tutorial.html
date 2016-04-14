@@ -123,6 +123,7 @@
 		<br>
 		<br>
 		<h3>Images with Captions</h3>
+		<hr>
 		<p>Because LEADR projects often require captions on images in order to allow for proper citation, adding images to html files requires a little more than simple &lt;img&gt; tags. Furthermore, the <code>src</code> value for an image used on a LEADR project should point to a locally-saved image, rather than a URL of the image on a website. This means you should be saving images from the internet into your repo, often into the "images" folder that is a sub-folder to the one that contains your html file. For example, if your html file is saved in a folder named "sites," it is easiest to save the image you use into the folder named "images" <em>inside</em> of the one named "sites."</p>
 		<p>To add captions to images, it is important to use the &lt;figure&gt; container. Figure containers allow a &lt;figcaption&gt; container within, which makes captioning painless. Furthermore, any changes to the image's size, alignment, or other attributes should be made to the &lt;figure&gt; tag instead. Define the &lt;img&gt; tag with <code>width="100%"</code> in order to ensure the image's width expands and contracts as you change the size of the &lt;figure&gt; container.</p>
 		<p>Finally, to create a popover that displays the citation information about your image, use an &lt;a&gt; tag with the <code>href</code> attribute set to "#", the <code>rel</code> attribute set to "citation", the <code>data-toggle</code> attribute set to "popover", and the <code>data-content</code> defined as the text of your citation.
